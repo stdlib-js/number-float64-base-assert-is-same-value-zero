@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-same-value-zero@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float64-base-assert-is-same-value-zero/tags). For example,
+
+```javascript
 import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-same-value-zero@v0.1.1-esm/index.mjs';
 ```
 
@@ -106,7 +111,7 @@ bool = isSameValueZero( -0.0, 0.0 );
 <body>
 <script type="module">
 
-import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-same-value-zero@v0.1.1-esm/index.mjs';
+import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-same-value-zero@esm/index.mjs';
 
 var bool = isSameValueZero( 3.14, 3.14 );
 // returns true
